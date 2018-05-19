@@ -1,0 +1,46 @@
+// PROPERTIES SHOULD BE SELECTED HERE VIA
+// Y FOR "YES",
+// N FOR "NO", AND
+// 0 FOR "DON'T CARE"
+
+# (Pareto) Dominance
+DOM         0
+
+# Anonymity
+ANON        0
+
+# Condorcet winner
+COND        N
+
+# Symmetric cancellation
+SYMCANC     0
+
+# The Fishburn-versus-Condorcet axiom
+FVSC        0
+
+# Elementary profile
+ELEM        0
+
+# Cyclic profile
+CYCL        0
+
+# Cancellation
+CANC        0
+
+# Reinforcement/Consistency
+REINF       0
+
+# Reinforcement subtraction
+REINF_SUB   0
+
+# Simplify
+SIMP        0
+
+# Majority
+MAJ         0
+
+# Weak majority
+WEAK_MAJO   0
+
+# Amount of blocking axioms (i.e., preconditions are enforced)
+// NO_BLOCKING    Y
