@@ -7,7 +7,7 @@ More details are explained in the corresponding [paper](https://formal.iti.kit.e
 The entry point should be the script [``arguing.sh``](arguing.sh), where (axiomatic) properties can be chosen via the file [``properties.in``](properties.in)
 and voting rules via [``rules.h``](rules.h).
 
-Furthermore you must specify the bounds for the number of alternatives and the number of voters.
+Furthermore, you must specify the bounds for the number of alternatives and the number of voters.
 Assuming you choose the numbers **_m_** for alternatives and **_n_** for voters, you would type the following in your shell:
 
 ```
@@ -21,3 +21,7 @@ The property files used in the paper are [``canc.in``](canc.in), [``cond.in``](c
 [``domNeg.in``](domNeg.in), [``elem.in``](elem.in), [``majo.in``](majo.in), [``reinf.in``](reinf.in) and [``wmaj.in``](wmaj.in) which are used to verify
 (or produce a counter-example for) the respective properties cancellation, Condorcet, cyclicity, Pareto dominance, negated Pareto dominance,
 elementary profile, majority, reinforcement, and weak majority.
+
+
+For more information, please contact [Michael Kirsten](https://formal.iti.kit.edu/~kirsten/?lang=en)
+or [Olivier Cailloux](https://www.lamsade.dauphine.fr/~ocailloux/).
