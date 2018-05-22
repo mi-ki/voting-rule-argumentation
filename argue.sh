@@ -138,7 +138,7 @@ then
 fi
 RULES='"'"$RULES"'"'
 RULES="-D RULES="$RULES
-p=`./scripts/printProperties.sh $PROP_STRING | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/ /, /g'`
+p=`./scripts/printProperties.sh "$PROP_STRING" | sed 's/^[ \t]*//;s/[ \t]*$//' | sed 's/ /, /g'`
 
 
 echo -e "Starting verification for "$c" candidates and "$v" voters"'\n'"for the property/-ies "$p$OPT_OUT"."'\n''\n'"This might take a while ..."
@@ -196,7 +196,7 @@ then
     then
         echo -e '\n'"Voting Rule: "$rule
     fi
-    ./scripts/printProperties.sh '\n'"Checked Properties: "$PROP_STRING" "
+    ./scripts/printProperties.sh '\n'"Checked Properties: $PROP_STRING "
     echo -e ""
 else
     echo -e "PROPERTIES SATISFIABLE FOR GIVEN BOUNDS."
@@ -204,7 +204,7 @@ else
     then
         echo -e '\n'"Voting Rule: "$rule
     fi
-    ./scripts/printProperties.sh '\n'"Satisfied Properties: "$PROP_STRING" "
+    ./scripts/printProperties.sh '\n'"Satisfied Properties: $PROP_STRING "
     echo -e '\n'"EXAMPLE:"'\n'"Input is given as ranked ballots and output as a set of"
     echo -e "all elected candidates (here denoted as YES). Candidates"
     echo -e "and voters have small or capital letters respectively."'\n'
