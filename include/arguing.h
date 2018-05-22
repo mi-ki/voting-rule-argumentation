@@ -65,19 +65,19 @@ char* RULE[1] = { "" }; // Analyzed voting rules
 #define WEAK_MAJO 0
 #endif
 
-#include "criteria/dominance-borda-set.h"
-#include "criteria/anonymity-borda-set.h"
-#include "criteria/condorcet-winner-borda-set.h"
-#include "criteria/reinforcement-borda-set.h"
-#include "criteria/symmetric-cancellation-borda-set.h"
-#include "criteria/fishburnVersusCondorcet-borda-set.h"
-#include "criteria/elementary-profile-borda-set.h"
-#include "criteria/cyclic-profile-borda-set.h"
-#include "criteria/cancellation-borda-set.h"
-#include "criteria/reinforcement-subtract-borda-set.h"
-#include "criteria/simplify-borda-set.h"
-#include "criteria/majority-borda-set.h"
-#include "criteria/weak-majority-borda-set.h"
+#include "../criteria/dominance-borda-set.h"
+#include "../criteria/anonymity-borda-set.h"
+#include "../criteria/condorcet-winner-borda-set.h"
+#include "../criteria/reinforcement-borda-set.h"
+#include "../criteria/symmetric-cancellation-borda-set.h"
+#include "../criteria/fishburnVersusCondorcet-borda-set.h"
+#include "../criteria/elementary-profile-borda-set.h"
+#include "../criteria/cyclic-profile-borda-set.h"
+#include "../criteria/cancellation-borda-set.h"
+#include "../criteria/reinforcement-subtract-borda-set.h"
+#include "../criteria/simplify-borda-set.h"
+#include "../criteria/majority-borda-set.h"
+#include "../criteria/weak-majority-borda-set.h"
 
 void dom(unsigned int votes[V][C], unsigned int res[C], unsigned int numVotes, unsigned int blocking) {
     if (C == 1) { return; }
