@@ -1,6 +1,6 @@
 #!/bin/bash
 FILE="argue.sh"
-RULES="rules.h"
+RULES="../rules.h"
 PROPS="properties.in"
 GLUCOSE=""
 c=$1
