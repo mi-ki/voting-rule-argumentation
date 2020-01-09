@@ -2,7 +2,7 @@
 
 Towards automatic voting rule argumentation by using computer-aided verification such as software bounded model checking.
 
-More details are explained in the corresponding [paper](https://formal.iti.kit.edu/biblio/?lang=en&key=KirstenCailloux2018).
+More details are explained in the corresponding [paper](https://formal.iti.kit.edu/biblio/?lang=en&key=KirstenCailloux2018), also see the respective [slides](https://github.com/oliviercailloux/voting-rule-argumentation-pres) for a quick overview.
 
 The entry point should be the script [``arguing.sh``](arguing.sh), where (axiomatic) properties can be chosen via the file [``properties.in``](properties.in)
 and voting rules via [``rules.h``](rules.h).
